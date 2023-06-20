@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Examen Final</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div id="app">
+    <div class="view view-main view-init">
+
+        <section id="panel-menu" class="panel panel-left panel-cover">
+
+            <div class="block perfil">
+
+                <div class="row">
+                    <article class="col-30">
+                        <img src="img/perfil-avatar.png" alt="" class="img-fluid">
+                    </article>
+                    <article class="col-70">
+                        <h6>David Bendeck</h6>
+                    </article>
+                </div>
+
+            </div>
+
+
+            <div id="menu-list" class="list media-list">
+              <ul>
+				<li>
+                  <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">home</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Inicio</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/bestsellers/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">star</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Best Sellers</div>
+                    </div>
+                  </a>
+                </li>
+            </ul>
+            </div>
+
+
+        </section>
+
+
+
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+                <div class="left">
+                    <img src="img/logo2.png" alt="" class="img-fluid">
+                </div>
+                <div class="title">GOG</div>
+                <div class="right">
+                    <a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+                </div>
+            </div>
+          </nav>
+
+          <section class="page-content">
+
+            <h2 class="block-title-large block-title">Good Old Games</h2>
+
+            <section id="carousel" class="block">
+
+				<div data-speed="900" data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+				  <div class="swiper-pagination"></div>
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/slide-1.jpg" alt="" class="img-fluid"></div>
+					<div class="swiper-slide"><img src="img/slide-2.jpg" alt="" class="img-fluid"></div>
+				  </div>
+				</div>
+
+
+            <h2 class="block-title">Best Sellers</h2>
+
+            <section class="card-products block">
+
+                <div class="row">
+
+                    <article class="col">
+                        <div class="card">
+							<a href="/metalgear/" class="link">
+                            	<img src="img/metalgear.png" alt="" class="img-fluid">
+							</a>
+                            <h3>Metal Gear Solid</h3>
+                            <p>You are Snake, a government agent on a mission to regain control of a secret nuclear weapons base from terrorist hands.</p>
+                            <h4>$10.03</h4>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card">
+                            <img src="img/deus.png" alt="" class="img-fluid">
+                            <h3>Deus Ex GOTY</h3>
+                            <p>The dystopian future of the year 2052, society slowly spirals into chaos. A lethal virus, the “Gray Death”, ravages the world.</p>
+                            <h4>$2.61</h4>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+        </section>
+
+    	</section>
+
+    </div>
+</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
