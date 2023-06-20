@@ -24,24 +24,14 @@ var app = new Framework7({
     	name: 'bestsellers',
   		},
 		{
-		path: '/pizzas/',
-    	url: 'pizzas.html',
-    	name: 'pizzas',
-  		},
-		{
 		path: '/metalgear/',
     	url: 'metalgear.html',
     	name: 'metalgear',
   		},
 		{
-		path: '/tarjetas/',
-    	url: 'tarjetas.html',
-    	name: 'tarjetas',
-  		},
-		{
-		path: '/settings/',
-    	url: 'settings.html',
-    	name: 'settings',
+		path: '/account/',
+    	url: 'account.html',
+    	name: 'account',
   		},
 	],
 	dialog: {
